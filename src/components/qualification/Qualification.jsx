@@ -45,7 +45,7 @@ const Qualification = () => {
           >
             <div className="qualification_data">
               <div>
-                <h3 className="qualification_title">Bsc in Cse</h3>
+                <h3 className="qualification_title">BSc in CSE</h3>
                 <span className="qualification_subtitle">Daffodil International U.</span>
                 <div className="qualification_calendar">
                   <i className="uil uil-calendar-alt"></i>

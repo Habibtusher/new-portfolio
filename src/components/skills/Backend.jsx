@@ -10,7 +10,7 @@ const Backend = () => {
                     <i class='bx bx-badge-check'></i>
                     <div>
                         <h3 className="skills_name">Node Js</h3>
-                        <span className="skills_lavel">Intermediate</span>
+                        {/* <span className="skills_lavel">Intermediate</span> */}
                     </div>
                     </div>
 
@@ -18,7 +18,7 @@ const Backend = () => {
                     <i class='bx bx-badge-check'></i>
                     <div>
                         <h3 className="skills_name">Mongoose</h3>
-                        <span className="skills_lavel">Intermediate</span>
+                        {/* <span className="skills_lavel">Intermediate</span> */}
                     </div>
                     </div>
 
@@ -26,18 +26,19 @@ const Backend = () => {
                     <i class='bx bx-badge-check'></i>
                     <div>
                         <h3 className="skills_name">Express Js</h3>
-                        <span className="skills_lavel">Intermediate</span>
+                        {/* <span className="skills_lavel">Intermediate</span> */}
                     </div>
                     </div>
-                </div>
-                <div className="skills_group">
                     <div className="skills_data">
                     <i class='bx bx-badge-check'></i>
                     <div>
                         <h3 className="skills_name">MongoDB</h3>
-                        <span className="skills_lavel">Intermediate</span>
+                        {/* <span className="skills_lavel">Intermediate</span> */}
                     </div>
                     </div>
+                </div>
+                <div className="skills_group">
+                    
 
                     {/* <div className="skills_data">
                     <i class='bx bx-badge-check'></i>
