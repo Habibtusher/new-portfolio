@@ -1,7 +1,7 @@
 import Work1 from "../../assets/food.png"
 import Work2 from "../../assets/toprak .png"
 import Work3 from "../../assets/doctor.png"
-import Work4 from "../../assets/work4.jpg"
+import Work4 from "../../assets/landing.png"
 
 
 export const projectsData = [
@@ -25,6 +25,14 @@ export const projectsData = [
       title: "Doctors Portal",
       category: "design",
       link:"https://doctorsportal9.netlify.app/"
+    }
+    ,
+    {
+      id: 4,
+      image: Work4,
+      title: "Landing Page",
+      category: "design",
+      link:"https://habibtusher.github.io/landing-page/"
     }
   ];
 
