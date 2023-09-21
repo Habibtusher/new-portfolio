@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 import "./contact.css";
 const Contact = () => {
   const form = useRef();
@@ -7,14 +7,13 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_ufd54v5",
-        "template_btkhqxo",
-        form.current,
-        "06DzMh_EgmYlJ_Sx1"
-      )
-     e.target.reset();
+    emailjs.sendForm(
+      "service_ufd54v5",
+      "template_btkhqxo",
+      form.current,
+      "06DzMh_EgmYlJ_Sx1"
+    );
+    e.target.reset();
   };
   return (
     <section className="contact section" id="contact">
@@ -33,7 +32,7 @@ const Contact = () => {
               </span>
 
               <a
-              target="blank"
+                target="blank"
                 href="mailto:habiburrahmantusher7@gmail.com"
                 className="contact_button"
               >
@@ -49,7 +48,7 @@ const Contact = () => {
               <span className="contact_card-data">+880 1771531336</span>
 
               <a
-              target="blank"
+                target="blank"
                 href="https://api.whatsapp.com/send?phone=01771531336&text=Hello"
                 className="contact_button"
               >
@@ -63,7 +62,11 @@ const Contact = () => {
               <div className="contact_card-title">Messenger</div>
               <span className="contact_card-data">habibur00.rahman</span>
 
-              <a href="https://m.me/habibur00.rahman" target="blank" className="contact_button">
+              <a
+                href="https://m.me/habibur00.rahman"
+                target="blank"
+                className="contact_button"
+              >
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact_button-icon"></i>
               </a>

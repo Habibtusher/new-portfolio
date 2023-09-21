@@ -18,7 +18,7 @@ const about = () => {
             and keep me dynamic, visionary and competitive with the changing
             scenario of the world.
           </p>
-          <a download="" href={CV} className="button button--flex">
+          <a download="" href='https://drive.google.com/u/0/uc?id=1_SUe69oVmYJNj70OUXv6Rkk_CYY2O5pL&export=download' className="button button--flex">
             Download CV
             <svg
               class="button_icon"

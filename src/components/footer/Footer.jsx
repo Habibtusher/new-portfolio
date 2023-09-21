@@ -29,6 +29,7 @@ const Footer = () => {
             href="https://www.facebook.com/habibur00.rahman/"
             className="footer_social-link"
             target="_blank"
+            rel="noreferrer"
           >
             <i class="bx bxl-facebook"></i>
           </a>
@@ -36,6 +37,7 @@ const Footer = () => {
             href="https://www.instagram.com/habibur0.rahman/"
             className="footer_social-link"
             target="_blank"
+            rel="noreferrer"
           >
             <i class="bx bxl-instagram-alt"></i>
           </a>
@@ -43,12 +45,14 @@ const Footer = () => {
             href="https://twitter.com/Habibtusher0"
             className="footer_social-link"
             target="_blank"
+            rel="noreferrer"
           >
-            <i class="bx bxl-twitter"></i>
+            <i className="bx bxl-twitter"></i>
           </a>
         </div>
         <span className="footer_copy">&#169; Habiburrahman. All rigths reserved</span>
       </div>
+    
     </footer>
   );
 };
