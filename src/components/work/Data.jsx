@@ -3,7 +3,8 @@ import Work2 from "../../assets/toprak .png"
 import Work3 from "../../assets/doctor.png"
 import Work4 from "../../assets/landing.png"
 import Work5 from "../../assets/book.png"
-
+import Work6 from "../../assets/habibur_work.png"
+import Work7 from "../../assets/habibur rahman project.png"
 
 export const projectsData = [
     {
@@ -41,6 +42,20 @@ export const projectsData = [
       title: "Landing Page",
       category: "design",
       link:"https://habibtusher.github.io/landing-page/"
+    },
+    {
+      id: 6,
+      image: Work6,
+      title: "Restaurant",
+      category: "web",
+      link:"https://booking-service-frontend-puce.vercel.app/"
+    },
+    {
+      id: 7,
+      image: Work7,
+      title: "Landing Page",
+      category: "design",
+      link:""
     },
     
   ];
