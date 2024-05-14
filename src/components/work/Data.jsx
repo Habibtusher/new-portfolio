@@ -5,8 +5,16 @@ import Work4 from "../../assets/landing.png"
 import Work5 from "../../assets/book.png"
 import Work6 from "../../assets/habibur_work.png"
 import Work7 from "../../assets/habibur rahman project.png"
+import Work8 from "../../assets/soft.png"
 
 export const projectsData = [
+    {
+      id: 0,
+      image: Work8,
+      title: "Soft Fixup",
+      category: "web",
+      link:"https://softfixup.com/"
+    },
     {
       id: 1,
       image: Work1,
