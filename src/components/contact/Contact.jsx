@@ -28,12 +28,12 @@ const Contact = () => {
               <i className="bx bxl-gmail contact_card-icon"></i>
               <div className="contact_card-title">Email</div>
               <span className="contact_card-data">
-                habiburrahmantusher7@gmail.com
+                dev.habiburrahman@gmial.com
               </span>
 
               <a
                 target="blank"
-                href="mailto:habiburrahmantusher7@gmail.com"
+                href="mailto:dev.habiburrahman@gmial.com"
                 className="contact_button"
               >
                 Write me{" "}
